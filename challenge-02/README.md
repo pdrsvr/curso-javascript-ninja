@@ -24,7 +24,7 @@ Onde VALOR é o novo valor da variável.
 */
 function adc(){
 myVar = 10;
-return console.log('O valor da variável agora é ' + myVar);
+return 'O valor da variável agora é ' + myVar;
 
 // Invoque a função criada acima.
 function adc()
@@ -41,7 +41,7 @@ Crie uma função com as seguintes características:
 */
 function mult(x, y, z){
 if(z == null){
-return console.log('preencha todos os valores corretamente')} else {
+return 'preencha todos os valores corretamente'} else {
 return x * y * z + 5;}}
 
 // Invoque a função criada acima, passando só dois números como argumento.
